@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row p{
+  display: inline-block;
+}
+.title{
+  font-size: 34px;
+}
+.description{
+  font-size: 20px;
+}
+.todoitem{
+  background-color: rgba(255, 255, 255, 0.183);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.checkbox{
+  color: white;
+}
+.page_title{
+  text-align: center;
+  font-size: 39px;
+}
+.head{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
+.form_input{
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.back_button{
+  margin: 5px;
+}

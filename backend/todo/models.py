@@ -5,7 +5,7 @@ from rest_framework import routers
 
 # Create your models here.
 class Todoitem(models.Model):
-    title = models.CharField(default = "", max_length=30)
+    title = models.CharField(default = "", max_length=30, null=True)
     description = models.CharField(default = "", max_length=50, null=True)
-    complete = models.BooleanField(default=False)
+    complete = models.BooleanField(default=False, null=True)
     completed_by = models.DateField(null=True)
